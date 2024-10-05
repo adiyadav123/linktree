@@ -4,7 +4,7 @@ import "../../../globals.css";
 
 const SignInPage = () => {
   return (
-    <main className='sign_in_page'>
+    <main className='flex items-center justify-center flex-col min-h-[100vh] w-full'>
         <SignIn />
     </main>
   );
