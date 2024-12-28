@@ -37,8 +37,8 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="p-3 h-full w-full bg-transparent">
-      <div className="w-full h-full bg-zinc-800 border-r-8 rounded-[30px] border-none p-5 flex items-start justify-between flex-col">
+    <div className=" h-full w-full bg-transparent">
+      <div className="w-full h-full bg-zinc-800 border-r-8 border-none p-5 flex items-start justify-between flex-col border-r-white">
         <div className="w-full">
           <div className="h-[30px] w-full text-[20px]">
             <FontAwesomeIcon icon={faCubesStacked} />
@@ -51,7 +51,7 @@ const Sidebar = () => {
                 activeLink === "Links"
                   ? "bg-zinc-700 text-yellow-500 hover:bg-zinc-700"
                   : "bg-transparent text-white hover:bg-zinc-700"
-              } transition-all duration-500 shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
+              }  shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
             >
               {activeLink === "Links" && (
                 <div className="absolute left-[-22px] bg-yellow-500 h-[60px] w-[8px] rounded-r-md"></div>
@@ -66,7 +66,7 @@ const Sidebar = () => {
                 activeLink === "Shop"
                   ? "bg-zinc-700 text-yellow-500 hover:bg-zinc-700"
                   : "bg-transparent text-white hover:bg-zinc-700"
-              } transition-all duration-500 shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
+              }  shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
             >
               {activeLink === "Shop" && (
                 <div className="absolute left-[-22px] bg-yellow-500 h-[60px] w-[8px] rounded-r-md"></div>
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 activeLink === "Appearance"
                   ? "bg-zinc-700 text-yellow-500 hover:bg-zinc-700"
                   : "bg-transparent text-white hover:bg-zinc-700"
-              } transition-all duration-500 shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
+              }  shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
             >
               {activeLink === "Appearance" && (
                 <div className="absolute left-[-22px] bg-yellow-500 h-[60px] w-[8px] rounded-r-md"></div>
@@ -99,7 +99,7 @@ const Sidebar = () => {
                 activeLink === "Analytics"
                   ? "bg-zinc-700 text-yellow-500 hover:bg-zinc-700"
                   : "bg-transparent text-white hover:bg-zinc-700"
-              } transition-all duration-500 shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
+              }  shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
             >
               {activeLink === "Analytics" && (
                 <div className="absolute left-[-22px] bg-yellow-500 h-[60px] w-[8px] rounded-r-md"></div>
@@ -117,7 +117,7 @@ const Sidebar = () => {
                 activeLink === "Settings"
                   ? "bg-zinc-700 text-yellow-500 hover:bg-zinc-700"
                   : "bg-transparent text-white hover:bg-zinc-700"
-              } transition-all duration-500 shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
+              }  shadow-none flex items-center justify-start space-x-2 h-[40px] text-[14px] relative`}
             >
               {activeLink === "Settings" && (
                 <div className="absolute left-[-22px] bg-yellow-500 h-[60px] w-[8px] rounded-r-md"></div>
@@ -129,7 +129,7 @@ const Sidebar = () => {
         </div>
         <div className="user_button w-full h-[50px]">
           <Button
-            className="bg-zinc-700 text-white hover:bg-zinc-600 transition-all duration-500 flex items-center justify-start space-x-2 h-[40px] text-[14px] hover:text-yellow-500"
+            className="bg-zinc-700 text-white hover:bg-zinc-600  flex items-center justify-start space-x-2 h-[40px] text-[14px] hover:text-yellow-500"
             style={{ width: "100%", height: "100%" }}
             onClick={() => openUser()}
           >

@@ -6,7 +6,6 @@ import  "@fortawesome/fontawesome-svg-core/styles.css";
 
 config.autoAddCss = false;
 
-
 const AdminLayout = () => {
   return (
     <div className=" flex items-center justify-center min-h-[100vh] w-full">
